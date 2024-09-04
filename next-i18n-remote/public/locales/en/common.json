@@ -1,3 +1,4 @@
 {
-  "hi": "Hi There!"
+  "hi": "Hi There!",
+  "welcome": "Welcome to the React and react-i18next tutorial."
 }
