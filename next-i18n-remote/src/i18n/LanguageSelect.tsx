@@ -16,7 +16,7 @@ export const languages = [
 
 function LanguageSelect() {
   const { i18n } = useTranslation();
-  const [lngCode, setLngCode] = React.useState(i18n.language ?? "en");
+  const [lngCode, setLngCode] = React.useState(i18n.language);
 
   useEffect(() => {
     console.log(i18n);

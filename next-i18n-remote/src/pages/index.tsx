@@ -6,16 +6,16 @@ import styles from "@/styles/Home.module.css";
 import { GetStaticProps } from "next/types";
 import { useEffect } from "react";
 
-import { useTranslation } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+//import { useTranslation } from "next-i18next";
+//import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import LanguageSelect from "@/i18n/LanguageSelect";
-/*
+
 import translation from "../i18n";
 import ssr from "../i18n/serverSideTranslations";
 const { serverSideTranslations } = ssr;
 const { useTranslation } = translation;
-*/
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
